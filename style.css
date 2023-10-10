@@ -1,0 +1,394 @@
+/*
+Template Name: UpComing - Coming Soon HTML5 Template
+Description: UpComing - Coming Soon HTML5 Template
+Author: CodexUnicTheme
+Version: 1.0
+ *--------------CSS INDEX------------
+ * #-Default CSS
+ * 
+ *
+*/
+/*
+ * #-Default CSS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Rajdhani:wght@300;400;500;600;700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&amp;display=swap');
+:root {
+  --body-color: #444;
+  --main-color: #1e1b39;
+  --primary-color: #FF324D;
+  --headding-color: #0B2B3C;
+  --section-bg: #EAEFF3;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: var(--body-color);
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+a,
+button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+*::-moz-selection {
+	background: var(--primary-color);
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: var(--primary-color);
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: var(--primary-color);
+	color: #fff;
+	text-shadow: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding: 0;
+}
+h1,h1,h2,h3,h4,h5,h6{
+	color: var(--headding-color);
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+}
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	transition: .4s;
+	-webkit-transition: all .4s ease-in-out;
+}
+a:hover{
+	text-decoration: none;
+	color: var(--primary-color);
+}
+button:focus{
+	outline: none;
+}
+input:focus{
+	outline: none;
+}
+textarea:focus{
+	outline: none;
+}
+p{
+	color: var(--main-color);
+	line-height: 26px;
+}
+.text-right{
+	text-align: right;
+}
+.main-section {
+  background: linear-gradient(30deg, #8029a8 40%, #3e0982 90%);
+  min-height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 30px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.middle-section {
+  padding: 100px 0px;
+  text-align: center;
+}
+.content-countdwon ul li {
+  display: inline-flex;
+  margin: 0px 5px;
+  width: 90px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(30deg, #3e0982a6 40%, #561374ad 90%);
+  border-radius: 5px;
+  color: #fff;
+}
+.content-countdwon ul li strong {
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+        width: 100%;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.content-countdwon ul li span small {
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 400;
+}
+.middle-section h4 {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.middle-section  h2 {
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.main-section-full {
+    width: 100%;
+}
+.middle-section p {
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    color: #ddd;
+    line-height: 26px;
+}
+.subscribe-from {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    background: #3e0982e0;
+    border-radius: 2px;
+}
+.subscribe-from input {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 16px;
+}
+.subscribe-from button.button-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 2px;
+    color: #fff;
+    background: #0a1e3a;
+    height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.subscribe-from input::-moz-placeholder {
+	color: #fff;
+}
+.subscribe-from input::placeholder {
+	color: #fff;
+}
+.social-share span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    margin: 0px 3px;
+}
+.social-share span a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    background: linear-gradient(30deg, #3e0982a6 40%, #561374ad 90%);
+    border-radius: 2px;
+    transition: all .3s ease;
+}
+.social-share span a:hover {
+    transform: translateY(-6px);
+}
+span.follow {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding-right: 20px;
+  position: relative;
+}
+span.follow:after {
+  content: "";
+  clear: both;
+  width: 18px;
+  height: 2px;
+  background: #fff;
+  right: 1px;
+  position: absolute;
+}
+.footer {
+    text-align: center;
+}
+.footer p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer p a{
+	color: #fff;
+}
+.footer p a:hover{
+	color: var(--primary-color);
+}
+.main-section.style-3:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    clear: both;
+    display: block;
+    background: url('img/bg2.png');
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.text-left{
+    text-align: left;
+}
+.style-3 .middle-section p {
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+    color: #ddd;
+    line-height: 26px;
+}
+.style-3 .middle-section .subscribe-from {
+    margin-left: 0px;
+}
+.style-3 .middle-section  h2 {
+    line-height: 64px;
+}
+.main-section.style-4 {
+    background-attachment: fixed;
+}
+.main-section.style-4:after {
+    content: "";
+    clear: both;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #00000087;
+    top: 0;
+    left: 0;
+}
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    background: #000;
+}
+.style-5 .main-section-full {
+    width: 100%;
+    z-index: 1;
+}
+@media (min-width:991px){
+	.social-share{
+		margin-right: 40px;
+	}
+}
+@media (max-width:991px){
+    .main-section.style-3 .logo {
+        text-align: center;
+    }
+    .main-section.style-3  .text-left {
+        text-align: center;
+    }
+    .style-3 .middle-section p {
+        max-width: 500px;
+    }
+    .style-3 .middle-section .subscribe-from {
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:576px){
+    .middle-section  h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    .middle-section p {
+        font-size: 14px;
+        max-width: 400px;
+        line-height: 26px;
+    }
+    .content-countdwon ul li strong {
+        font-size: 30px;
+    }
+    .content-countdwon ul li {
+        margin: 0px 1px;
+        width: 68px;
+        height: 68px;
+    }
+    .middle-section {
+        padding: 60px 0px;
+    }
+    .style-3 .middle-section  h2 {
+        line-height: 40px;
+    }
+}
+@media (max-width:375px){
+    .content-countdwon ul li strong {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .content-countdwon ul li span small {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .main-section {
+        padding: 30px 15px;
+    }
+    .subscribe-from button.button-1 {
+        padding: 16px 12px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    .subscribe-from input {
+        font-size: 12px;
+        height: 47px;
+    }
+    .content-countdwon ul li {
+        width: 62px;
+        height: 62px;
+    }
+}
